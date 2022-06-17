@@ -1,0 +1,37 @@
+.orderItemContainer{
+    display:list-item;
+    justify-content:space-evenly;
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: capitalize;
+    flex: 10;
+    padding: 10px;
+
+}
+.orderImgContainer{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    text-align: center;
+}
+.orderImg{
+    max-width: 80px;
+    max-height: 80px;
+}
+/* .orderRow{
+    display: flex;
+    flex: 2;
+}
+.orderName{
+    width: 300px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    font-size: 20px;
+}
+.orderPrice{
+    box-sizing: border-box;
+    padding: 0 40px;
+    display: flex;
+    align-items: flex-start;
+    font-size: 18px;
+  } */

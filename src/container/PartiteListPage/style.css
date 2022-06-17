@@ -1,0 +1,11 @@
+.productContainer{
+    display:flex;
+    width: auto;
+    height: auto;
+    
+}
+.productContainer .productImgContainer img{
+    float: right;
+    width:  270px;
+    height: 270px;
+}

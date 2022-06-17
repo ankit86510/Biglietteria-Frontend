@@ -1,0 +1,25 @@
+
+.delItemImgContainer{
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+    text-align: center;
+}
+.delItemImgContainer > img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.orderDetails{
+    display: block;
+    justify-content:space-evenly;
+    padding: 150px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    flex: 1;
+}
+p {
+    font-size: 30px;
+    font-weight: 1000;
+  }
