@@ -1,19 +1,19 @@
 
 .delItemImgContainer{
-    width: 75px;
-    height: 75px;
-    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    overflow:hidden;
     text-align: center;
 }
 .delItemImgContainer > img{
     max-width: 100%;
     max-height: 100%;
-    object-fit: contain;
+    object-fit:fill;
 }
 .orderDetails{
     display: block;
-    justify-content:space-evenly;
-    padding: 150px;
+    justify-content:space-around;
+    padding: 15px;
     font-size: 20px;
     font-weight: 400;
     text-transform: capitalize;
